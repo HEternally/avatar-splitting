@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>example</title>
+    <style media="screen">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        body{
+            background-color: #e9e6e6;
+        }
+        .btn{
+            /* position: absolute; */
+            /* left: 20%; */
+            /* bottom: 10%; */
+            display: inline-block;
+            width: 48%;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            border:2px solid #000;
+            border-radius: 8px;
+        }
+        .btn2{
+            /* position: absolute; */
+            /* left: 80%; */
+            /* bottom: 10%; */
+            display: inline-block;
+            width: 48%;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            border:2px solid #000;
+            border-radius: 8px;
+        }
+        .origin, .result{
+            width: 48%;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            position: relative;
+        }
+        .title{
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            padding: 10px;
+        }
+        .image{
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div class="origin">
+        <h1 class="title">单图</h1>
+        <img class="image" src="http://mtapplet.meitudata.com/5d3594af6d16f939d0.jpg" alt="" id="origin">
+
+        
+    </div>
+    <div class="origin">
+        <h1 class="title">双图</h1>
+        <img class="image" src="https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzc4OTYwMA==/20661a2f-45c4-4010-bf73-1c33c490b061.jpg?1563790271557" alt="">
+        <img class="image" src="https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzc4OTYwMA==/a5262b2b-68cf-4cfa-8e52-e2fcdaf22fa9.jpg?1563790271430" alt="">
+    </div>
+    <div class="btn" id="btn">抠除单图背景</div>
+    <div class="btn2" id="btn2">扣除双图背景</div>
+    <div class="result" id="result">
+        <h1 class="title">结果图</h1>
+    </div>
+    <div class="result" id="result2">
+        <h1 class="title">结果图</h1>
+    </div>
+    <script src="./dist/index.js"></script>
+</body>
+</html>
