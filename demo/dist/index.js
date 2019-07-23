@@ -115,8 +115,6 @@
         }
     }
 
-    // import matting from '../lib/index';
-
     window.onload = function () {
         var $btn = document.getElementById('btn');
         var $btn2 = document.getElementById('btn2');
@@ -143,8 +141,8 @@
         });
         $btn2.addEventListener('click', function () {
             avatar({
-                image: 'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzc4OTYwMA==/20661a2f-45c4-4010-bf73-1c33c490b061.jpg?1563790271557', //必填 原图或是原图、mask合成图，可以传 url / base64，支持相对路径;
-                maskImage: 'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzc4OTYwMA==/a5262b2b-68cf-4cfa-8e52-e2fcdaf22fa9.jpg?1563790271430', // 选填 mask图，可以传url / base64，支持相对路径;
+                image: 'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzg3MjQwMA==/6fa1e1c5-27cc-4bc4-97de-64edf40a3996.jpg?1563875002917', //必填 原图或是原图、mask合成图，可以传 url / base64，支持相对路径;
+                maskImage: 'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzg3MjQwMA==/c8c87d26-8d61-420c-aad0-31356af49aa1.jpg?1563875002794', // 选填 mask图，可以传url / base64，支持相对路径;
                 exportType: 'canvas',
                 success: function success(res) {
                     $result2.appendChild(res);

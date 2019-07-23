@@ -1,7 +1,7 @@
 {
   "name": "avatar-splitting",
-  "version": "2.0.2",
-  "description": "the avatar function",
+  "version": "2.0.4",
+  "description": "the eliminate-mask function",
   "main": "dist/avatar-splitting.js",
   "moduleName": "avatar-splitting",
   "scripts": {
@@ -14,7 +14,8 @@
   "keywords": [
     "mask",
     "picture",
-    "avatar"
+    "avatar",
+    "eliminate"
   ],
   "author": "Heternally<zl20@meitu.com>",
   "repository": {

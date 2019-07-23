@@ -1,6 +1,10 @@
 # avatar-splitting 
 ![](https://img.shields.io/github/issues/HEternally/avatar-splitting.svg) ![](https://img.shields.io/github/stars/HEternally/avatar-splitting.svg) ![](https://img.shields.io/github/forks/HEternally/avatar-splitting.svg)
 
+## Demo
+
+[Demo](https://heternally.github.io/avatar-splitting/demo/index.html)
+
 ## 文档
 
  [中文](https://github.com/HEternally/avatar-splitting/blob/master/README_ZH.md)  [英文](https://github.com/HEternally/avatar-splitting/blob/master/README.md)
@@ -14,7 +18,7 @@
 1. 可以直接从[GitHub](https://github.com/HEternally/avatar-splitting)下载
 2. `Javascript`引入
 ```javascript
-<script src="https://cdn.jsdelivr.net/npm/avatar-splitting@2.0.0/dist/avatar-splitting.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/avatar-splitting@2.0.4/dist/avatar-splitting.min.js"></script>
 ```
 3. 通过`npm`安装
 ```javascript
@@ -64,7 +68,7 @@ avatar({
 
 ## 版本
 
-- `2.0.2 -- 修改README.md`
+- `2.0.3 -- 修改README.md`
 - `2.0.1 -- 支持双图模式（原图与mask分离）`
 - `2.0.0 -- 正式版发布`
 - `1.0.0 -- 测试版发布`

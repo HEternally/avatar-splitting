@@ -1,5 +1,4 @@
-// import matting from '../lib/index';
-import  avatar  from '../lib/index';
+import  avatar  from '../src/index';
 
 window.onload = function(){
     let $btn = document.getElementById('btn');
