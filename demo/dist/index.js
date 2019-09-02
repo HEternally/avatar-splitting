@@ -141,8 +141,8 @@
         });
         $btn2.addEventListener('click', function () {
             avatar({
-                image: 'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzg3MjQwMA==/6fa1e1c5-27cc-4bc4-97de-64edf40a3996.jpg?1563875002917', //必填 原图或是原图、mask合成图，可以传 url / base64，支持相对路径;
-                maskImage: 'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzg3MjQwMA==/c8c87d26-8d61-420c-aad0-31356af49aa1.jpg?1563875002794', // 选填 mask图，可以传url / base64，支持相对路径;
+                image: '../images/test1.jpg', //必填 原图或是原图、mask合成图，可以传 url / base64，支持相对路径;
+                maskImage: '../images/test2.jpg', // 选填 mask图，可以传url / base64，支持相对路径;
                 exportType: 'canvas',
                 success: function success(res) {
                     $result2.appendChild(res);

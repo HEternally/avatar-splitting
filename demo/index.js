@@ -26,8 +26,8 @@ window.onload = function(){
     });
     $btn2.addEventListener('click',function() {
         avatar({
-            image:'https://camo.githubusercontent.com/e2a7016b6b8ee0b5b87b99ce66a2d56d1129ea28/68747470733a2f2f6f73732e6d746c61622e6d656974752e636f6d2f6d746f70656e2f32515364783431384735514c54457143564174624b724d4754575063503874592f4d5455324d7a67334d6a51774d413d3d2f36666131653163352d323763632d346263342d393764652d3634656466343061333939362e6a70673f31353633383735303032393137', //必填 原图或是原图、mask合成图，可以传 url / base64，支持相对路径;
-            maskImage: 'https://camo.githubusercontent.com/f7a4d4fd516e71a83e31278d18e74e4dab64198e/68747470733a2f2f6f73732e6d746c61622e6d656974752e636f6d2f6d746f70656e2f32515364783431384735514c54457143564174624b724d4754575063503874592f4d5455324d7a67334d6a51774d413d3d2f63386338376432362d386436312d343230632d616164302d3331333536616634396161312e6a70673f31353633383735303032373934', // 选填 mask图，可以传url / base64，支持相对路径;
+            image:'images/test1.jpg', //必填 原图或是原图、mask合成图，可以传 url / base64，支持相对路径;
+            maskImage: 'images/test2.jpg', // 选填 mask图，可以传url / base64，支持相对路径;
             exportType: 'canvas',
             success(res) {
                 $result2.appendChild(res);
