@@ -141,8 +141,8 @@
         });
         $btn2.addEventListener('click', function () {
             avatar({
-                image: '../images/test1.jpg', //必填 原图或是原图、mask合成图，可以传 url / base64，支持相对路径;
-                maskImage: '../images/test2.jpg', // 选填 mask图，可以传url / base64，支持相对路径;
+                image: 'images/test1.jpg', //必填 原图或是原图、mask合成图，可以传 url / base64，支持相对路径;
+                maskImage: 'images/test2.jpg', // 选填 mask图，可以传url / base64，支持相对路径;
                 exportType: 'canvas',
                 success: function success(res) {
                     $result2.appendChild(res);
