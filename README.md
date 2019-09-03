@@ -30,7 +30,7 @@ import avatar from 'avatar-splitting'
 ![](http://mtapplet.meitudata.com/5d3594af6d16f939d0.jpg)
 ```javascript
 avatar({
-    image:'http://mtapplet.meitudata.com/5d3594af6d16f939d0.jpg', //Required, original image or original image, mask composite image, can pass url / base64, support relative path;
+    image:'http://mtapplet.meitudata.com/5d3594af6d16f939d0.jpg', //Required, original image or original image, mask composite image, can pass url, support relative path;
     exportType: 'base64', // Optional, export image mode, you can pass base64 / canvas
     success(res) {
         console.log(res);// Res may be base64 or canvas node
@@ -48,8 +48,8 @@ The original image can be uploaded on the [Mito AI open platform](https://ai.mei
 
 ```javascript
 avatar({
-    image:'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzg3MjQwMA==/6fa1e1c5-27cc-4bc4-97de-64edf40a3996.jpg?1563875002917', //Required, original image or original image, mask composite image, can pass url / base64, support relative path;
-    maskImage: 'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzg3MjQwMA==/c8c87d26-8d61-420c-aad0-31356af49aa1.jpg?1563875002794', // Optional, mask map, can pass url / base64, support relative path;
+    image:'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzg3MjQwMA==/6fa1e1c5-27cc-4bc4-97de-64edf40a3996.jpg?1563875002917', //Required, original image or original image, mask composite image, can pass url, support relative path;
+    maskImage: 'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzg3MjQwMA==/c8c87d26-8d61-420c-aad0-31356af49aa1.jpg?1563875002794', // Optional, mask map, can pass url, support relative path;
     exportType: 'canvas',
     success(res) {
         console.log(res);// Res may be base64 or canvas node
