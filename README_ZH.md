@@ -32,7 +32,7 @@ import avatar from 'avatar-splitting'
 ![](http://mtapplet.meitudata.com/5d3594af6d16f939d0.jpg)
 ```javascript
 avatar({
-    image:'http://mtapplet.meitudata.com/5d3594af6d16f939d0.jpg', //必填 原图或是原图、mask合成图，可以传 url / base64，支持相对路径;
+    image:'http://mtapplet.meitudata.com/5d3594af6d16f939d0.jpg', //必填 原图或是原图、mask合成图，可以传 url，支持相对路径;
     exportType: 'base64', // 选填 导出图片方式，可以传 base64 / canvas 
     success(res) {
         console.log(res);// res 可能为 base64 或者 canvas节点
@@ -50,8 +50,8 @@ avatar({
 
 ```javascript
 avatar({
-    image:'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzg3MjQwMA==/6fa1e1c5-27cc-4bc4-97de-64edf40a3996.jpg?1563875002917', //必填 原图或是原图、mask合成图，可以传 url / base64，支持相对路径;
-    maskImage: 'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzg3MjQwMA==/c8c87d26-8d61-420c-aad0-31356af49aa1.jpg?1563875002794', // 选填 mask图，可以传url / base64，支持相对路径;
+    image:'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzg3MjQwMA==/6fa1e1c5-27cc-4bc4-97de-64edf40a3996.jpg?1563875002917', //必填 原图或是原图、mask合成图，可以传 url，支持相对路径;
+    maskImage: 'https://oss.mtlab.meitu.com/mtopen/2QSdx418G5QLTEqCVAtbKrMGTWPcP8tY/MTU2Mzg3MjQwMA==/c8c87d26-8d61-420c-aad0-31356af49aa1.jpg?1563875002794', // 选填 mask图，可以传url，支持相对路径;
     exportType: 'canvas',
     success(res) {
         console.log(res);// res 可能为 base64 或者 canvas节点
